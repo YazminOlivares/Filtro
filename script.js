@@ -1,4 +1,3 @@
-// script.js
 document.getElementById('searchInput').addEventListener('keyup', function () {
     let filter = this.value.toLowerCase();
     let listItems = document.querySelectorAll('#itemList li');
